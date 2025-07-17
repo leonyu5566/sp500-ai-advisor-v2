@@ -5,18 +5,15 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "post"
-      ],
-      "route": "callGemini"
+      "methods": [ "post" ],
+      "route": "testpost"
     },
     {
       "type": "http",
       "direction": "out",
       "name": "res"
     }
-  ],
-  "scriptFile": "index.js"
+  ]
 }
 
 
